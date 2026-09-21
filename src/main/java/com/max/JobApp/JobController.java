@@ -15,4 +15,9 @@ public class JobController {
     public String addJob() {
         return "addjob";
     }
+
+    @RequestMapping("handleForm")
+    public String handleForm() {
+        return "success";
+    }
 }
