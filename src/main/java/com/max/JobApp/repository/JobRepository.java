@@ -1,11 +1,13 @@
 package com.max.JobApp.repository;
 
 import com.max.JobApp.model.JobPost;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Repository
 public class JobRepository {
 
     List<JobPost> jobs =  new ArrayList<>(Arrays.asList(
